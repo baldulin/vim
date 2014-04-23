@@ -4,10 +4,50 @@ snippet pdb
 snippet nuts
 	# May contain traces of nuts
 
+snippet vim
+	# vim: ts=4 et sw=4 sts=4
+
 snippet from
 	from ${1:module} import ${2:stuff}
 
 snippet class
 	class ${1:Name}:
+		""" ${2} """
+		${3:pass}
+
+snippet s.
+	self.
+
+snippet defs
+	def ${1:Name}(self${2:, param}):
+		""" ${2} """
+		${3:pass}
+
+snippet def
+	def ${1:Name}(${2}):
+		""" ${3} """
+		${4:pass}
+
+snippet for
+	for ${1:var} in ${2:set}:
+		${3:pass}
+
+snippet fori
+	for ${1:i} in range(${2:n}):
+		${3:pass}
+
+snippet if
+	if ${1:test}:
 		${2:pass}
+
+snippet elif
+	elif ${1:test}:
+		${2:pass}
+
+snippet try
+	try:
+		${1:pass}
+	except ${2:error}:
+		${3:pass}
+
 
