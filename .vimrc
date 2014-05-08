@@ -54,3 +54,4 @@ set clipboard=unnamedplus
 " Rope configuration
 map <leader>j :RopeGoToDefinition<CR>
 map <leader>r :RopeRename<CR>
+let g:UltiSnipsJumpForwardTrigger="<C-@>"
